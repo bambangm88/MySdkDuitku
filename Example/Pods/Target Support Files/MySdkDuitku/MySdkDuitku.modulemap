@@ -1,0 +1,6 @@
+framework module MySdkDuitku {
+  umbrella header "MySdkDuitku-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MySdkDuitku
 
 class ViewController: UIViewController {
 
@@ -20,5 +21,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func tes(_ sender: UIButton) {
+        let vc = storyboard?.instantiateViewController(withIdentifier:"listPaymentDuitku") as!ListPayment
+        self.navigationController?.pushViewController(vc,animated: true)
+    }
 }
 
