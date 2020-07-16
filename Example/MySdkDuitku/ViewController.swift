@@ -22,8 +22,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func tes(_ sender: UIButton) {
-        //let vc = storyboard?.instantiateViewController(withIdentifier:"listPaymentDuitku") as!ListPayment
-       // self.navigationController?.pushViewController(vc,animated: true)
+       // var sdk = ListPayment()
     }
 }
 

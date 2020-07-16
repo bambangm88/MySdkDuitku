@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MySdkDuitku'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = ' description of MySdkDuitku. kdhgdabdahbdahbdajkdad yadladbkahgdadadadaadada'
 
 # This description is used to generate tags and improve search results.
@@ -26,10 +26,10 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/bambangm88/MySdkDuitku.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
   s.swift_version = '4.0'
 
-  s.source_files = 'MySdkDuitku/Classes/**/*'
+  s.source_files = 'MySdkDuitku/*.{swift}'
   
   # s.resource_bundles = {
   #   'MySdkDuitku' => ['MySdkDuitku/Assets/*.png']

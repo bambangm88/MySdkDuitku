@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-public class ListPayment:  UIViewController  {
+class ListPayment:  UIViewController  {
        public class func doIt()
        {
            print("do it !!!")
