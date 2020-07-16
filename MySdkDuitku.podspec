@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
   s.swift_version = '4.0'
 
-  s.source_files = 'MySdkDuitku/*.{swift}'
+  s.source_files = 'MySdkDuitku/Classes/**/*.{h,m,swift}'
   
   # s.resource_bundles = {
   #   'MySdkDuitku' => ['MySdkDuitku/Assets/*.png']
